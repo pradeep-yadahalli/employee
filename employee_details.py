@@ -43,4 +43,5 @@ if __name__ == "__main__":
     except ValueError:
         print("Error: Salary must be a valid number.")
     except Exception as e:
+        
         print("An error occurred:", e)
